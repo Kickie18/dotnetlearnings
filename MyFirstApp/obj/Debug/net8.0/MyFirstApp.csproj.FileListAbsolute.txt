@@ -12,3 +12,4 @@
 /Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
 /Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
 /Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.sourcelink.json
