@@ -1,0 +1,14 @@
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/bin/Debug/net8.0/MyFirstApp
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/bin/Debug/net8.0/MyFirstApp.deps.json
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/bin/Debug/net8.0/MyFirstApp.runtimeconfig.json
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/bin/Debug/net8.0/MyFirstApp.dll
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/bin/Debug/net8.0/MyFirstApp.pdb
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfoInputs.cache
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfo.cs
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.csproj.CoreCompileInputs.cache
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.dll
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/refint/MyFirstApp.dll
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
+/Users/hemanthkumar/Desktop/dotnetlearnings/dotnetlearnings/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
