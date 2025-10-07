@@ -27,7 +27,11 @@ public struct TestClass()
 
         data dt = new data("hemanth", 10);
 
-        
+
+//dictionary
+        Dictionary<int, string> dic = new Dictionary<int, string>();
+        dic.Add(1, "hemanthdata");
+        Console.WriteLine(dic[1]);
 
 
         
