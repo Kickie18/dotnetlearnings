@@ -2,6 +2,7 @@
 
 
 
+using System.Dynamic;
 using System.Net.NetworkInformation;
 
 
@@ -28,10 +29,27 @@ public struct TestClass()
         data dt = new data("hemanth", 10);
 
 
-//dictionary
+        //dictionary
         Dictionary<int, string> dic = new Dictionary<int, string>();
         dic.Add(1, "hemanthdata");
+        dic.Add(2, "rithu");
+
+
+        if (dic.Values.Contains("rithu1"))
+        {
+            Console.WriteLine("contains");
+        }
         Console.WriteLine(dic[1]);
+
+        records<int> rcd = new records<int>();
+       
+
+        records<string> rcdf = new records<string>();
+       
+
+        Console.WriteLine(rcd.Add(1));
+        Console.WriteLine(rcd.Add("name"));
+
 
 
         
@@ -43,4 +61,13 @@ public struct TestClass()
 
 public record data(string name,int age);
 
+
+//generics
+public class records<T>()
+{
+    public T Add<T>(T items)
+    {
+        return items;
+    }
+}
 
