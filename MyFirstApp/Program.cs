@@ -2,6 +2,7 @@
 
 
 
+using System.Diagnostics.CodeAnalysis;
 using System.Dynamic;
 using System.Net.NetworkInformation;
 
@@ -17,10 +18,11 @@ public struct TestClass()
         return 0;
     }
 
-  
-  
+    //Func<int, int, int> sum1 = (a, b) => a + b;
+
+
   //delegates
-  public delegate int Greet(int a, int b);
+    public delegate int Greet(int a, int b);
 
      static int add(int a, int b) => a + b;
 
@@ -35,9 +37,11 @@ public struct TestClass()
         Greet gt = add;
 
         Console.WriteLine(gt(1,6));
+//func
+Func<int, int, int> sum1 = (a, b) => a + b;
 
-
-
+  Console.WriteLine(sum1(11,11));
+  
 
 
         Console.WriteLine(tc1.alpha + tc.alpha);
