@@ -2,6 +2,7 @@
 
 
 
+using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
 using System.Dynamic;
 using System.Net.NetworkInformation;
@@ -41,8 +42,19 @@ public struct TestClass()
 Func<int, int, int> sum1 = (a, b) => a + b;
 
   Console.WriteLine(sum1(11,11));
-  
 
+
+        var users = new[]
+        {
+    new { Id = 1, Name = "Alice", Age = 22 },
+    new { Id = 2, Name = "Bob", Age = 28 },
+    new { Id = 3, Name = "Charlie", Age = 18 }
+};
+//linq
+
+        var re = users.Where(ag => ag.Age > 20).Select(na=>na.Name);
+
+        Console.WriteLine(string.Join(" ", re));
 
         Console.WriteLine(tc1.alpha + tc.alpha);
 
