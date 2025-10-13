@@ -43,6 +43,9 @@ Func<int, int, int> sum1 = (a, b) => a + b;
 
   Console.WriteLine(sum1(11,11));
 
+//default
+        Console.WriteLine(default(int));
+
 
         var users = new[]
         {
