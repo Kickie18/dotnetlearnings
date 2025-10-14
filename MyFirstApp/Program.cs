@@ -53,7 +53,27 @@ Func<int, int, int> sum1 = (a, b) => a + b;
     new { Id = 2, Name = "Bob", Age = 28 },
     new { Id = 3, Name = "Charlie", Age = 18 }
 };
-//linq
+        //linq
+        List<int> li = new List<int>() { 4, 2, 3, 6, 5 };
+
+
+//swqpping
+        for (int i = 0; i < li.Count() - 1; i++)
+        {
+            int temp;
+            if (li[i] > li[i + 1])
+            {
+                temp = li[i];
+                li[i] = li[i + 1];
+                li[i + 1] = temp;
+            }
+        }
+
+        foreach (var a in li)
+        {
+            Console.Write(a);
+        }
+        
 
         var re = users.Where(ag => ag.Age > 20).Select(na=>na.Name);
 
