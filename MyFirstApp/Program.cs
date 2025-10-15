@@ -56,11 +56,12 @@ Func<int, int, int> sum1 = (a, b) => a + b;
         //linq
         List<int> li = new List<int>() { 4, 2, 3, 6, 5 };
 
-
+        Console.Write(li.Count());
 //swqpping
         for (int i = 0; i < li.Count() - 1; i++)
         {
             int temp;
+            Console.WriteLine(i + " " + i + 1);
             if (li[i] > li[i + 1])
             {
                 temp = li[i];
@@ -76,6 +77,13 @@ Func<int, int, int> sum1 = (a, b) => a + b;
         
 
         var re = users.Where(ag => ag.Age > 20).Select(na=>na.Name);
+
+
+//null pattern
+        if (users[0]?.Name is "Alice")
+        {
+            Console.Write("pattern matched");
+        }
 
         Console.WriteLine(string.Join(" ", re));
 
