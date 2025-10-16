@@ -5,6 +5,7 @@
 using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
 using System.Dynamic;
+using System.Formats.Tar;
 using System.Net.NetworkInformation;
 
 
@@ -27,8 +28,16 @@ public struct TestClass()
 
      static int add(int a, int b) => a + b;
 
+
+//params
+    public static void para(params int[] pt)
+    {
+        Console.Write(pt[1]);
+    }
+
     public static void Main()
     {
+        para([100, 200, 300]);
         TestClass tc = new TestClass();
 
         TestClass tc1 = tc;
@@ -37,13 +46,13 @@ public struct TestClass()
 
         Greet gt = add;
 
-        Console.WriteLine(gt(1,6));
-//func
-Func<int, int, int> sum1 = (a, b) => a + b;
+        Console.WriteLine(gt(1, 6));
+        //func
+        Func<int, int, int> sum1 = (a, b) => a + b;
 
-  Console.WriteLine(sum1(11,11));
+        Console.WriteLine(sum1(11, 11));
 
-//default
+        //default
         Console.WriteLine(default(int));
 
 
@@ -56,8 +65,10 @@ Func<int, int, int> sum1 = (a, b) => a + b;
         //linq
         List<int> li = new List<int>() { 4, 2, 3, 6, 5 };
 
+
+
         Console.Write(li.Count());
-//swqpping
+        //swqpping
         for (int i = 0; i < li.Count() - 1; i++)
         {
             int temp;
@@ -74,12 +85,12 @@ Func<int, int, int> sum1 = (a, b) => a + b;
         {
             Console.Write(a);
         }
-        
-
-        var re = users.Where(ag => ag.Age > 20).Select(na=>na.Name);
 
 
-//null pattern
+        var re = users.Where(ag => ag.Age > 20).Select(na => na.Name);
+
+
+        //null pattern
         if (users[0]?.Name is "Alice")
         {
             Console.Write("pattern matched");
